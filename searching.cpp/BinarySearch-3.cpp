@@ -31,4 +31,37 @@
 //     }
 //     cout<<ans;
 
+// // }
+// #include<iostream>
+// #include<limits.h>
+// using namespace std;
+// int findElement(int arr[],int n){
+//     int first=INT_MIN;
+
+//     for(int i=0;i<n;i++){
+//         if(arr[i]>first){
+//            first =arr[i];
+//         }
+//     }
+//         int second=INT_MIN;
+//         for(int j=0;j<n;j++){
+//             if(arr[j]>second&&arr[j]<first){
+//             second=arr[j];
+
+//         }
+//     }
+//         int third=INT_MIN;
+//         for(int i=0;i<n;i++){
+//             if(arr[i]>third&&arr[i]<second){
+//             third=arr[i];
+//         }
+
+//     }
+//     return third;
+// }
+// int main(){
+//     int arr[]={10,30,40,50};
+//     int size=4;
+//    cout<< findElement(arr,size);
+
 // }
